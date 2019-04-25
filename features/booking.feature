@@ -13,6 +13,6 @@ Feature: booking
     Then Select Departing: 12/01/2019
     Then I pick two adult
     Then I click search button
-    Then Assert that the price in first row is $116
+    Then Assert that the price in first row is $114
     Then Assert that the first price is not $1
     Then Assert the visible list of “Airlines included” beneath the list of “Stops”
